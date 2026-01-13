@@ -1,0 +1,65 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+const title = 'Privacy Policy | World Class Firms';
+const description = 'Privacy Policy for World Class Firms - Learn how we protect and handle your personal information.';
+---
+
+<Layout title={title} description={description}>
+  <Header />
+  <main class="min-h-screen bg-white">
+    <div class="container-custom py-16">
+      <div class="max-w-4xl mx-auto prose prose-lg">
+        <h1 class="text-4xl font-bold text-gray-900 mb-8">Privacy Policy</h1>
+        
+        <div class="space-y-8 text-gray-700">
+          <section>
+            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Information We Collect</h2>
+            <p>We collect information you provide directly to us, such as when you create an account, join our community, or contact us. This may include your name, email address, phone number, and any other information you choose to provide.</p>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-semibold text-gray-900 mb-4">How We Use Your Information</h2>
+            <p>We use the information we collect to:</p>
+            <ul class="list-disc pl-6 space-y-2">
+              <li>Provide, maintain, and improve our services</li>
+              <li>Send you technical notices, updates, security alerts, and support messages</li>
+              <li>Communicate with you about our community, events, and other news</li>
+              <li>Respond to your comments, questions, and requests</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Information Sharing</h2>
+            <p>We do not share, sell, rent, or trade your personal information with third parties for their promotional purposes. We may share your information in the following circumstances:</p>
+            <ul class="list-disc pl-6 space-y-2">
+              <li>With your consent</li>
+              <li>To comply with legal obligations</li>
+              <li>To protect and defend our rights and property</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Data Security</h2>
+            <p>We take reasonable measures to help protect your personal information from loss, theft, misuse, unauthorized access, disclosure, alteration, and destruction.</p>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy, please contact us through our community or support channels.</p>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Updates to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+            <p class="text-sm text-gray-600 mt-4">Last Updated: January 2024</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>

@@ -1,0 +1,71 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+const title = 'Terms of Use | World Class Firms';
+const description = 'Terms of Use for World Class Firms - Please read these terms carefully before using our services.';
+---
+
+<Layout title={title} description={description}>
+  <Header />
+  <main class="min-h-screen bg-white">
+    <div class="container-custom py-16">
+      <div class="max-w-4xl mx-auto prose prose-lg">
+        <h1 class="text-4xl font-bold text-gray-900 mb-8">Terms of Use</h1>
+        
+        <div class="space-y-8 text-gray-700">
+          <section>
+            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Acceptance of Terms</h2>
+            <p>By accessing and using this website and our services, you accept and agree to be bound by the terms and provision of this agreement.</p>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-semibent text-gray-900 mb-4">Use License</h2>
+            <p>Permission is granted to temporarily download one copy of the materials on World Class Firms' website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
+            <ul class="list-disc pl-6 space-y-2">
+              <li>Modify or copy the materials</li>
+              <li>Use the materials for any commercial purpose or for any public display</li>
+              <li>Attempt to reverse engineer any software contained on the website</li>
+              <li>Remove any copyright or other proprietary notations from the materials</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Disclaimer</h2>
+            <p>The materials on World Class Firms' website are provided on an 'as is' basis. World Class Firms makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.</p>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Community Guidelines</h2>
+            <p>When participating in our community, you agree to:</p>
+            <ul class="list-disc pl-6 space-y-2">
+              <li>Be respectful and professional in all interactions</li>
+              <li>Not share inappropriate or offensive content</li>
+              <li>Respect the intellectual property of others</li>
+              <li>Not engage in spam or self-promotion without permission</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Limitations</h2>
+            <p>In no event shall World Class Firms or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on World Class Firms' website, even if World Class Firms or a World Class Firms authorized representative has been notified orally or in writing of the possibility of such damage.</p>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Revisions</h2>
+            <p>The materials appearing on World Class Firms' website could include technical, typographical, or photographic errors. World Class Firms does not warrant that any of the materials on its website are accurate, complete, or current. World Class Firms may make changes to the materials contained on its website at any time without notice.</p>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-semibold text-gray-900 mb-4">Contact Information</h2>
+            <p>If you have any questions about these Terms of Use, please contact us through our community or support channels.</p>
+            <p class="text-sm text-gray-600 mt-4">Last Updated: January 2024</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
